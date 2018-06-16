@@ -1,0 +1,18 @@
+.header {
+    background: #fff;
+    margin-bottom: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    &__brand {
+        
+    }
+    &__main-nav {
+        width: 64%;
+    }
+}

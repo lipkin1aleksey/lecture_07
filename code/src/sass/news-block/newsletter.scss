@@ -1,0 +1,36 @@
+.newsletter {
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__text {
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+    &__register-form {
+        margin-bottom: 16px;
+    }
+}
+.register-form {
+    display: flex;
+    justify-content: space-between;
+    &__field {
+        display: flex;
+    }
+    &__input {
+        padding: 8px;
+        padding-bottom: 5px;
+        background: linear-gradient( to top, rgb(217,217,217) 0%, rgb(246,246,246) 100%);
+        border: 1px solid $main-font;
+        border-radius: 4px;
+    }
+    &__button {
+        color: $orange;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+        border: 1px solid $main-font;
+        background: linear-gradient( to top, rgb(217,217,217) 0%, rgb(246,246,246) 100%);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}

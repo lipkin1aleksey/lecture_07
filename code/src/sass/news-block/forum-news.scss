@@ -1,0 +1,24 @@
+.forum-news {
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+    &__subtitle {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    &__author {
+        margin-bottom: 8px;
+    }
+    &__text {
+        line-height: 1.5;
+        margin-bottom: 16px;
+        color: $main-font;
+    }
+    &__link {
+        align-self: flex-end;
+    }
+}

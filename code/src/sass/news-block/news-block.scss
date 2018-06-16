@@ -1,0 +1,12 @@
+.news-block {
+    background: $light-bg;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        margin-bottom: 24px;
+    }
+    &__column {
+        width: 30%;
+    }
+}

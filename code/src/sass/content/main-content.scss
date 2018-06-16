@@ -1,0 +1,8 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    &__card {
+        width: 31.25%;
+        margin-bottom: 32px;
+    }
+}

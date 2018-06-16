@@ -1,0 +1,31 @@
+//misc
+@import "./sass/misc/reset.scss";
+@import "./sass/misc/fonts.scss";
+@import "./sass/misc/colors.scss";
+@import "./sass/misc/default.scss";
+
+
+//components
+
+//header
+@import "./sass/header/main-nav.scss";
+@import "./sass/header/brand.scss";
+@import "./sass/header/header.scss";
+
+//content
+@import "./sass/content/main-slider.scss";
+@import "./sass/content/card.scss";
+@import "./sass/content/main-content.scss";
+@import "./sass/content/gallery-content.scss";
+
+//news-block
+@import "./sass/news-block/news-block.scss";
+@import "./sass/news-block/newsletter.scss";
+@import "./sass/news-block/social.scss";
+@import "./sass/news-block/forum-news.scss";
+@import "./sass/news-block/news-feed.scss";
+
+//footer
+@import "./sass/footer/copyright.scss";
+@import "./sass/footer/footer.scss";
+

@@ -1,0 +1,25 @@
+.news-feed {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    &__item {
+        margin-bottom: 8px;
+    }
+    &__text {
+        line-height: 1.2;
+        color: $main-font;
+    }
+    &__link {
+        align-self: flex-end;
+        margin-top: auto;
+    }
+
+}

@@ -1,0 +1,72 @@
+html, body {
+    @include ubuntu(regular);
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: $black;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+//turn off outline
+:focus {
+    outline:none;
+}
+::-moz-focus-inner {
+    border:0;
+}
+a {
+    text-decoration: none;
+    color: $black;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    background: $main-bg;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.content-wrapper {
+    width: 100%;
+}
+.title {
+    line-height: 1.2;
+    &--big {
+        font-size: 36px;
+    }
+    &--medium {
+        font-size: 26px;
+    }
+    &--normal {
+        font-size: 20px;
+    }
+}
+.button {
+
+}
+.link {
+    &--orange {
+        color: $orange;
+        &:hover {
+            color: lighten($color: $orange, $amount: 15)
+        }
+    }
+    &--arrow {
+        &:after {
+            content: "»";
+            margin-left: 4px;
+        }
+    }
+}

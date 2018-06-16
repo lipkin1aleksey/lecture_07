@@ -1,0 +1,53 @@
+.social {
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    &__item {
+        display: flex;
+        margin-right: 32px;
+        margin-bottom: 16px;
+        min-width: 100px;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        &:before {
+            content: "";
+            background: url("icons/icon-sprite.png") no-repeat;
+            width: 32px;
+            height: 32px;   
+            margin-right: 16px;     
+        }
+        &--linkedin {
+            &:before {
+                content: "";
+                background-position: -32px -0px;
+            }
+        }
+        &--pinterest {
+            &:before {
+                content: "";
+                background-position: 0 0;
+            }
+        }
+        &--twitter {
+            &:before {
+                content: "";
+                background-position: -32px -32px;
+            }
+        }
+        &--rss {
+            &:before {
+                content: "";
+                background-position: -0px -32px;
+            }
+        }
+    }
+    &__name {
+
+    }
+}
