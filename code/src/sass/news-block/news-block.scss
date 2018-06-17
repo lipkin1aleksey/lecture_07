@@ -8,5 +8,11 @@
     }
     &__column {
         width: 30%;
+        color: $main-font;
+    }
+    &__title {
+        margin-bottom: 16px;
+        font-style: italic;
+        color: $black;
     }
 }
