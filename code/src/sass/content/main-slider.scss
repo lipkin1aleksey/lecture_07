@@ -1,14 +1,15 @@
 .main-slider {
     position: relative;
     &__slide {
-        display: flex;
         min-height: 400px;
         background: $black;
         padding: 20px;
         margin-bottom: 36px;
     }
     &__block {
-        align-self: flex-end;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
         background: #000;
         color: #fff;
         width: 43.5%;
@@ -38,6 +39,9 @@
         background: #fff;
         transition: all 0.2s ease-in;
         &:hover {
+            background: transparent;
+        }
+        &--active {
             background: transparent;
         }
     }

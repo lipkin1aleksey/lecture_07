@@ -8,7 +8,8 @@
     justify-content: space-between;
     margin-bottom: 24px;
     &__main-photo {
-        width: 568px;
+        width: 100%;
+        max-width: 568px;
         height: 250px;
         overflow: hidden;
         img {
@@ -21,7 +22,7 @@
         flex-flow: row wrap;
         justify-content: space-between;
         align-content: space-between;
-        width: 372px;
+        width: 38.75%;
     }
     &__box {
         width: 120px;
