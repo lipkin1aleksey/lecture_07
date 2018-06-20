@@ -1,5 +1,5 @@
 //js
-import "./js/additional";
+import "./js/animations";
 
 //styles
 import "./style.scss";

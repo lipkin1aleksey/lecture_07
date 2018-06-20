@@ -8,6 +8,7 @@
     justify-content: space-between;
     margin-bottom: 24px;
     &__main-photo {
+        position: relative;
         width: 100%;
         max-width: 568px;
         height: 250px;
@@ -28,9 +29,25 @@
         width: 120px;
         height: 120px;
         overflow: hidden;
+        cursor: pointer;
         img {
             height: 100%;
             width: 100%;
         }
+    }
+}
+.floatImage {
+    position: absolute;
+    top: 0;
+    animation: floatImage 2s;
+}
+@keyframes floatImage {
+    from {
+        left: -100%;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
     }
 }
